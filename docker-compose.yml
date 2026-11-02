@@ -1,0 +1,48 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: busca-es
+    environment:
+      - discovery.type=single-node        # um no so, sem cluster
+      - xpack.security.enabled=false      # sem senha/HTTPS: ambiente de estudo
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m    # limita a memoria para rodar em notebook
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -qE '\"status\":\"(green|yellow)\"'"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  # Kibana: usado na apresentacao pelo Dev Tools (http://localhost:5601/app/dev_tools#/console)
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.15.3
+    container_name: busca-kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+
+  # PostgreSQL: usado so no comparativo. Sobe com: docker compose --profile sql up -d postgres
+  postgres:
+    image: postgres:16
+    container_name: busca-postgres
+    profiles: ["sql"]
+    environment:
+      POSTGRES_USER: loja
+      POSTGRES_PASSWORD: loja
+      POSTGRES_DB: loja
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sql/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./sql/02_carga.sql:/docker-entrypoint-initdb.d/02_carga.sql:ro
+      - ./sql:/sql:ro
+
+volumes:
+  es_data:

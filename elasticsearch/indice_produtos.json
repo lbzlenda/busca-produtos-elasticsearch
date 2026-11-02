@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {
+      "filter": {
+        "pt_stop":   { "type": "stop", "stopwords": "_portuguese_" },
+        "pt_stem":   { "type": "stemmer", "language": "light_portuguese" },
+        "sinonimos": {
+          "type": "synonym_graph",
+          "synonyms": [
+            "celular, smartphone, telefone, telemovel",
+            "tenis, sapatilha",
+            "moletom, agasalho",
+            "bone, chapeu",
+            "jaqueta, casaco",
+            "ebook, livro digital"
+          ]
+        }
+      },
+      "analyzer": {
+        "pt_indice": {
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding", "pt_stop", "pt_stem"]
+        },
+        "pt_busca": {
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding", "sinonimos", "pt_stop", "pt_stem"]
+        },
+        "simples": {
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "dynamic_templates": [
+      {
+        "atributos_texto_como_keyword": {
+          "path_match": "atributos.*",
+          "match_mapping_type": "string",
+          "mapping": { "type": "keyword" }
+        }
+      }
+    ],
+    "properties": {
+      "sku":       { "type": "keyword" },
+      "nome": {
+        "type": "text",
+        "analyzer": "pt_indice",
+        "search_analyzer": "pt_busca",
+        "fields": {
+          "keyword":      { "type": "keyword" },
+          "autocompletar": { "type": "search_as_you_type", "analyzer": "simples" },
+          "sugestao":     { "type": "text", "analyzer": "simples" }
+        }
+      },
+      "descricao": { "type": "text", "analyzer": "pt_indice", "search_analyzer": "pt_busca" },
+      "categoria": { "type": "keyword" },
+      "marca": {
+        "type": "keyword",
+        "fields": { "texto": { "type": "text", "analyzer": "simples" } }
+      },
+      "tags": {
+        "type": "keyword",
+        "fields": { "texto": { "type": "text", "analyzer": "pt_indice", "search_analyzer": "pt_busca" } }
+      },
+      "preco":           { "type": "scaled_float", "scaling_factor": 100 },
+      "estoque":         { "type": "integer" },
+      "emEstoque":       { "type": "boolean" },
+      "notaMedia":       { "type": "float" },
+      "totalAvaliacoes": { "type": "integer" },
+      "vendas":          { "type": "integer" },
+      "criadoEm":        { "type": "date" },
+      "atributos": {
+        "type": "object",
+        "properties": {
+          "autor": {
+            "type": "text",
+            "analyzer": "simples",
+            "fields": { "keyword": { "type": "keyword" } }
+          }
+        }
+      },
+      "avaliacoes": { "type": "object", "enabled": false }
+    }
+  }
+}

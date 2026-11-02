@@ -1,0 +1,1670 @@
+[
+  {
+    "sku": "CEL-001",
+    "nome": "Samsung Galaxy S24 128GB",
+    "descricao": "Smartphone Samsung com 128 GB de armazenamento, 8 GB de memória RAM e tela de 6,2 polegadas. Conectividade 5G. Sistema Android 14, cor Preto.",
+    "categoria": "celular",
+    "marca": "Samsung",
+    "preco": 3999.0,
+    "estoque": 25,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "lancamento"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 201,
+    "criadoEm": "2026-04-01",
+    "atributos": {
+      "armazenamentoGB": 128,
+      "ramGB": 8,
+      "telaPolegadas": 6.2,
+      "cor": "Preto",
+      "cincoG": true,
+      "sistema": "Android 14"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Mariana Costa",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Camera excelente e muito rapido.",
+        "data": "2026-08-14"
+      },
+      {
+        "cliente": "Joao Pedro Lima",
+        "cidade": "Goiania",
+        "nota": 4,
+        "comentario": "Bateria poderia durar mais.",
+        "data": "2026-09-02"
+      },
+      {
+        "cliente": "Fernanda Alves",
+        "cidade": "Brasilia",
+        "nota": 5,
+        "comentario": "Melhor celular que ja tive.",
+        "data": "2026-09-20"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-002",
+    "nome": "Samsung Galaxy A55 256GB",
+    "descricao": "Smartphone Samsung com 256 GB de armazenamento, 8 GB de memória RAM e tela de 6,6 polegadas. Conectividade 5G. Sistema Android 14, cor Azul.",
+    "categoria": "celular",
+    "marca": "Samsung",
+    "preco": 2199.0,
+    "estoque": 40,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "custo-beneficio"
+    ],
+    "notaMedia": 4.25,
+    "totalAvaliacoes": 4,
+    "vendas": 263,
+    "criadoEm": "2026-04-02",
+    "atributos": {
+      "armazenamentoGB": 256,
+      "ramGB": 8,
+      "telaPolegadas": 6.6,
+      "cor": "Azul",
+      "cincoG": true,
+      "sistema": "Android 14"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Carlos Souza",
+        "cidade": "Araguaina",
+        "nota": 5,
+        "comentario": "Otimo custo-beneficio.",
+        "data": "2026-07-10"
+      },
+      {
+        "cliente": "Patricia Rocha",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Tela muito boa, camera ok.",
+        "data": "2026-08-01"
+      },
+      {
+        "cliente": "Lucas Martins",
+        "cidade": "Gurupi",
+        "nota": 3,
+        "comentario": "Esquenta jogando.",
+        "data": "2026-08-22"
+      },
+      {
+        "cliente": "Aline Ferreira",
+        "cidade": "Sao Paulo",
+        "nota": 5,
+        "comentario": "Chegou antes do prazo.",
+        "data": "2026-09-15"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-003",
+    "nome": "Apple iPhone 15 128GB",
+    "descricao": "Smartphone Apple com 128 GB de armazenamento, 6 GB de memória RAM e tela de 6,1 polegadas. Conectividade 5G. Sistema iOS 17, cor Rosa.",
+    "categoria": "celular",
+    "marca": "Apple",
+    "preco": 5299.0,
+    "estoque": 15,
+    "emEstoque": true,
+    "tags": [
+      "ios",
+      "5g",
+      "premium"
+    ],
+    "notaMedia": 3.67,
+    "totalAvaliacoes": 3,
+    "vendas": 157,
+    "criadoEm": "2026-04-03",
+    "atributos": {
+      "armazenamentoGB": 128,
+      "ramGB": 6,
+      "telaPolegadas": 6.1,
+      "cor": "Rosa",
+      "cincoG": true,
+      "sistema": "iOS 17",
+      "resistenciaAgua": "IP68"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Beatriz Nunes",
+        "cidade": "Rio de Janeiro",
+        "nota": 5,
+        "comentario": "Fotos incriveis.",
+        "data": "2026-06-30"
+      },
+      {
+        "cliente": "Rafael Oliveira",
+        "cidade": "Palmas",
+        "nota": 2,
+        "comentario": "Muito caro pelo que entrega.",
+        "data": "2026-07-18"
+      },
+      {
+        "cliente": "Juliana Ribeiro",
+        "cidade": "Belo Horizonte",
+        "nota": 4,
+        "comentario": "Bom, mas o carregador e vendido a parte.",
+        "data": "2026-08-09"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-004",
+    "nome": "Apple iPhone 15 Pro 256GB",
+    "descricao": "Smartphone Apple com 256 GB de armazenamento, 8 GB de memória RAM e tela de 6,1 polegadas. Conectividade 5G. Sistema iOS 17, cor Titanio Natural.",
+    "categoria": "celular",
+    "marca": "Apple",
+    "preco": 7999.0,
+    "estoque": 8,
+    "emEstoque": true,
+    "tags": [
+      "ios",
+      "5g",
+      "premium"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 2,
+    "vendas": 148,
+    "criadoEm": "2026-04-04",
+    "atributos": {
+      "armazenamentoGB": 256,
+      "ramGB": 8,
+      "telaPolegadas": 6.1,
+      "cor": "Titanio Natural",
+      "cincoG": true,
+      "sistema": "iOS 17",
+      "resistenciaAgua": "IP68"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Gustavo Henrique",
+        "cidade": "Brasilia",
+        "nota": 5,
+        "comentario": "Acabamento em titanio muito bonito.",
+        "data": "2026-09-05"
+      },
+      {
+        "cliente": "Camila Duarte",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Desempenho absurdo.",
+        "data": "2026-09-28"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-005",
+    "nome": "Motorola Edge 50 Fusion 256GB",
+    "descricao": "Smartphone Motorola com 256 GB de armazenamento, 8 GB de memória RAM e tela de 6,7 polegadas. Conectividade 5G. Sistema Android 14, cor Verde.",
+    "categoria": "celular",
+    "marca": "Motorola",
+    "preco": 1899.0,
+    "estoque": 30,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "custo-beneficio"
+    ],
+    "notaMedia": 4.33,
+    "totalAvaliacoes": 3,
+    "vendas": 162,
+    "criadoEm": "2026-04-05",
+    "atributos": {
+      "armazenamentoGB": 256,
+      "ramGB": 8,
+      "telaPolegadas": 6.7,
+      "cor": "Verde",
+      "cincoG": true,
+      "sistema": "Android 14"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Thiago Barros",
+        "cidade": "Porto Nacional",
+        "nota": 4,
+        "comentario": "Tela curva linda.",
+        "data": "2026-08-11"
+      },
+      {
+        "cliente": "Larissa Mendes",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Carrega muito rapido.",
+        "data": "2026-08-30"
+      },
+      {
+        "cliente": "Diego Carvalho",
+        "cidade": "Goiania",
+        "nota": 4,
+        "comentario": "Bom pelo preco.",
+        "data": "2026-10-03"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-006",
+    "nome": "Motorola Moto G54 128GB",
+    "descricao": "Smartphone Motorola com 128 GB de armazenamento, 4 GB de memória RAM e tela de 6,5 polegadas. Conectividade 5G. Sistema Android 13, cor Azul.",
+    "categoria": "celular",
+    "marca": "Motorola",
+    "preco": 1099.0,
+    "estoque": 60,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "entrada"
+    ],
+    "notaMedia": 3.5,
+    "totalAvaliacoes": 2,
+    "vendas": 121,
+    "criadoEm": "2026-04-06",
+    "atributos": {
+      "armazenamentoGB": 128,
+      "ramGB": 4,
+      "telaPolegadas": 6.5,
+      "cor": "Azul",
+      "cincoG": true,
+      "sistema": "Android 13"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Renata Gomes",
+        "cidade": "Araguaina",
+        "nota": 3,
+        "comentario": "Um pouco lento com muitos apps.",
+        "data": "2026-07-25"
+      },
+      {
+        "cliente": "Bruno Teixeira",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Bateria dura o dia todo.",
+        "data": "2026-08-19"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-007",
+    "nome": "Xiaomi Redmi Note 13 256GB",
+    "descricao": "Smartphone Xiaomi com 256 GB de armazenamento, 8 GB de memória RAM e tela de 6,67 polegadas. Conectividade 4G. Sistema Android 13, cor Preto.",
+    "categoria": "celular",
+    "marca": "Xiaomi",
+    "preco": 1499.0,
+    "estoque": 45,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "custo-beneficio"
+    ],
+    "notaMedia": 3.67,
+    "totalAvaliacoes": 3,
+    "vendas": 167,
+    "criadoEm": "2026-04-07",
+    "atributos": {
+      "armazenamentoGB": 256,
+      "ramGB": 8,
+      "telaPolegadas": 6.67,
+      "cor": "Preto",
+      "cincoG": false,
+      "sistema": "Android 13"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Vanessa Pinto",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Muito celular pelo preco.",
+        "data": "2026-06-12"
+      },
+      {
+        "cliente": "Marcelo Araujo",
+        "cidade": "Imperatriz",
+        "nota": 2,
+        "comentario": "Veio com propaganda no sistema.",
+        "data": "2026-07-01"
+      },
+      {
+        "cliente": "Isabela Moura",
+        "cidade": "Gurupi",
+        "nota": 4,
+        "comentario": "Camera boa de dia.",
+        "data": "2026-07-29"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-008",
+    "nome": "Xiaomi Poco X6 Pro 512GB",
+    "descricao": "Smartphone Xiaomi com 512 GB de armazenamento, 12 GB de memória RAM e tela de 6,67 polegadas. Conectividade 5G. Sistema Android 14, cor Amarelo.",
+    "categoria": "celular",
+    "marca": "Xiaomi",
+    "preco": 2399.0,
+    "estoque": 20,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "gamer"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 170,
+    "criadoEm": "2026-04-08",
+    "atributos": {
+      "armazenamentoGB": 512,
+      "ramGB": 12,
+      "telaPolegadas": 6.67,
+      "cor": "Amarelo",
+      "cincoG": true,
+      "sistema": "Android 14"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Felipe Cardoso",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Roda tudo no maximo.",
+        "data": "2026-09-09"
+      },
+      {
+        "cliente": "Amanda Lopes",
+        "cidade": "Brasilia",
+        "nota": 4,
+        "comentario": "Esquenta um pouco, mas e rapido.",
+        "data": "2026-09-27"
+      },
+      {
+        "cliente": "Rodrigo Freitas",
+        "cidade": "Goiania",
+        "nota": 5,
+        "comentario": "Perfeito para jogos.",
+        "data": "2026-10-12"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-009",
+    "nome": "Samsung Galaxy A15 128GB",
+    "descricao": "Smartphone Samsung com 128 GB de armazenamento, 4 GB de memória RAM e tela de 6,5 polegadas. Conectividade 4G. Sistema Android 14, cor Azul Claro.",
+    "categoria": "celular",
+    "marca": "Samsung",
+    "preco": 899.0,
+    "estoque": 80,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "entrada"
+    ],
+    "notaMedia": 2.5,
+    "totalAvaliacoes": 2,
+    "vendas": 174,
+    "criadoEm": "2026-04-09",
+    "atributos": {
+      "armazenamentoGB": 128,
+      "ramGB": 4,
+      "telaPolegadas": 6.5,
+      "cor": "Azul Claro",
+      "cincoG": false,
+      "sistema": "Android 14"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Sandra Melo",
+        "cidade": "Paraiso do Tocantins",
+        "nota": 4,
+        "comentario": "Simples e funciona bem.",
+        "data": "2026-05-20"
+      },
+      {
+        "cliente": "Paulo Vieira",
+        "cidade": "Palmas",
+        "nota": 1,
+        "comentario": "Parou de carregar em 2 semanas.",
+        "data": "2026-06-15"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-010",
+    "nome": "Google Pixel 8 128GB",
+    "descricao": "Smartphone Google com 128 GB de armazenamento, 8 GB de memória RAM e tela de 6,2 polegadas. Conectividade 5G. Sistema Android 14, cor Branco.",
+    "categoria": "celular",
+    "marca": "Google",
+    "preco": 4299.0,
+    "estoque": 6,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "importado"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 1,
+    "vendas": 84,
+    "criadoEm": "2026-04-10",
+    "atributos": {
+      "armazenamentoGB": 128,
+      "ramGB": 8,
+      "telaPolegadas": 6.2,
+      "cor": "Branco",
+      "cincoG": true,
+      "sistema": "Android 14",
+      "importado": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Eduardo Santos",
+        "cidade": "Sao Paulo",
+        "nota": 5,
+        "comentario": "Android puro e camera top.",
+        "data": "2026-08-03"
+      }
+    ]
+  },
+  {
+    "sku": "CEL-011",
+    "nome": "Realme 12 Pro+ 256GB",
+    "descricao": "Smartphone Realme com 256 GB de armazenamento, 12 GB de memória RAM e tela de 6,7 polegadas. Conectividade 5G. Sistema Android 14, cor Azul.",
+    "categoria": "celular",
+    "marca": "Realme",
+    "preco": 2599.0,
+    "estoque": 12,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g"
+    ],
+    "notaMedia": 0,
+    "totalAvaliacoes": 0,
+    "vendas": 98,
+    "criadoEm": "2026-04-11",
+    "atributos": {
+      "armazenamentoGB": 256,
+      "ramGB": 12,
+      "telaPolegadas": 6.7,
+      "cor": "Azul",
+      "cincoG": true,
+      "sistema": "Android 14"
+    },
+    "avaliacoes": []
+  },
+  {
+    "sku": "CEL-012",
+    "nome": "Motorola Razr 40 Ultra 256GB",
+    "descricao": "Smartphone Motorola com 256 GB de armazenamento, 8 GB de memória RAM e tela de 6,9 polegadas. Conectividade 5G. Sistema Android 13, cor Magenta.",
+    "categoria": "celular",
+    "marca": "Motorola",
+    "preco": 4499.0,
+    "estoque": 5,
+    "emEstoque": true,
+    "tags": [
+      "android",
+      "5g",
+      "dobravel"
+    ],
+    "notaMedia": 4,
+    "totalAvaliacoes": 2,
+    "vendas": 144,
+    "criadoEm": "2026-04-12",
+    "atributos": {
+      "armazenamentoGB": 256,
+      "ramGB": 8,
+      "telaPolegadas": 6.9,
+      "telaExternaPolegadas": 3.6,
+      "cor": "Magenta",
+      "cincoG": true,
+      "sistema": "Android 13",
+      "dobravel": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Leticia Campos",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Chama atencao onde eu chego.",
+        "data": "2026-09-14"
+      },
+      {
+        "cliente": "Henrique Dias",
+        "cidade": "Brasilia",
+        "nota": 3,
+        "comentario": "Dobradica marca a tela.",
+        "data": "2026-10-06"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-001",
+    "nome": "Camiseta Básica Algodão Preta",
+    "descricao": "Camiseta Básica Algodão Preta da marca Hering, feito em 100% algodão. Tamanhos disponíveis: P, M, G, GG. Cores: Preto. Modelo unissex.",
+    "categoria": "roupa",
+    "marca": "Hering",
+    "preco": 49.9,
+    "estoque": 200,
+    "emEstoque": true,
+    "tags": [
+      "basico",
+      "algodao"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 176,
+    "criadoEm": "2026-04-13",
+    "atributos": {
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "cores": [
+        "Preto"
+      ],
+      "material": "100% algodão",
+      "genero": "unissex"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Ana Clara Reis",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Tecido grosso, nao ficou transparente.",
+        "data": "2026-07-07"
+      },
+      {
+        "cliente": "Marcos Paulo",
+        "cidade": "Gurupi",
+        "nota": 4,
+        "comentario": "Encolheu um pouco na lavagem.",
+        "data": "2026-08-12"
+      },
+      {
+        "cliente": "Tatiane Lima",
+        "cidade": "Araguaina",
+        "nota": 5,
+        "comentario": "Comprei 3 iguais.",
+        "data": "2026-09-01"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-002",
+    "nome": "Calça Jeans Slim Masculina",
+    "descricao": "Calça Jeans Slim Masculina da marca Levi's, feito em 98% algodão, 2% elastano. Tamanhos disponíveis: 38, 40, 42, 44, 46. Cores: Azul Escuro, Preto. Modelo masculino.",
+    "categoria": "roupa",
+    "marca": "Levi's",
+    "preco": 299.9,
+    "estoque": 70,
+    "emEstoque": true,
+    "tags": [
+      "jeans"
+    ],
+    "notaMedia": 3,
+    "totalAvaliacoes": 2,
+    "vendas": 111,
+    "criadoEm": "2026-04-14",
+    "atributos": {
+      "tamanhos": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "cores": [
+        "Azul Escuro",
+        "Preto"
+      ],
+      "material": "98% algodão, 2% elastano",
+      "genero": "masculino",
+      "modelagem": "slim"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Vinicius Prado",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Caimento otimo.",
+        "data": "2026-06-21"
+      },
+      {
+        "cliente": "Fabio Moreira",
+        "cidade": "Goiania",
+        "nota": 2,
+        "comentario": "Tamanho veio menor que o normal.",
+        "data": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-003",
+    "nome": "Vestido Midi Floral",
+    "descricao": "Vestido Midi Floral da marca Farm, feito em viscose. Tamanhos disponíveis: PP, P, M, G. Cores: Floral Verde. Modelo feminino.",
+    "categoria": "roupa",
+    "marca": "Farm",
+    "preco": 389.0,
+    "estoque": 30,
+    "emEstoque": true,
+    "tags": [
+      "verao",
+      "estampado"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 147,
+    "criadoEm": "2026-04-15",
+    "atributos": {
+      "tamanhos": [
+        "PP",
+        "P",
+        "M",
+        "G"
+      ],
+      "cores": [
+        "Floral Verde"
+      ],
+      "material": "viscose",
+      "genero": "feminino",
+      "comprimento": "midi"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Gabriela Fontes",
+        "cidade": "Rio de Janeiro",
+        "nota": 5,
+        "comentario": "Lindo e fresquinho.",
+        "data": "2026-09-03"
+      },
+      {
+        "cliente": "Priscila Torres",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Recebi muitos elogios.",
+        "data": "2026-09-22"
+      },
+      {
+        "cliente": "Livia Marques",
+        "cidade": "Brasilia",
+        "nota": 4,
+        "comentario": "Amassa facil.",
+        "data": "2026-10-10"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-004",
+    "nome": "Moletom Canguru Cinza",
+    "descricao": "Moletom Canguru Cinza da marca Nike, feito em algodão e poliéster. Tamanhos disponíveis: P, M, G, GG. Cores: Cinza Mescla, Preto. Modelo unissex.",
+    "categoria": "roupa",
+    "marca": "Nike",
+    "preco": 349.9,
+    "estoque": 45,
+    "emEstoque": true,
+    "tags": [
+      "inverno",
+      "esportivo"
+    ],
+    "notaMedia": 4.5,
+    "totalAvaliacoes": 2,
+    "vendas": 127,
+    "criadoEm": "2026-04-16",
+    "atributos": {
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "cores": [
+        "Cinza Mescla",
+        "Preto"
+      ],
+      "material": "algodão e poliéster",
+      "genero": "unissex",
+      "capuz": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Otavio Nascimento",
+        "cidade": "Curitiba",
+        "nota": 5,
+        "comentario": "Muito quente.",
+        "data": "2026-06-05"
+      },
+      {
+        "cliente": "Bianca Castro",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Bonito, mas o capuz e pequeno.",
+        "data": "2026-07-20"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-005",
+    "nome": "Tênis de Corrida Pegasus 41",
+    "descricao": "Tênis de Corrida Pegasus 41 da marca Nike, feito em mesh. Tamanhos disponíveis: 37, 38, 39, 40, 41, 42, 43. Cores: Branco, Preto. Modelo unissex.",
+    "categoria": "roupa",
+    "marca": "Nike",
+    "preco": 799.9,
+    "estoque": 35,
+    "emEstoque": true,
+    "tags": [
+      "esportivo",
+      "calcado",
+      "corrida"
+    ],
+    "notaMedia": 4.75,
+    "totalAvaliacoes": 4,
+    "vendas": 220,
+    "criadoEm": "2026-04-17",
+    "atributos": {
+      "tamanhos": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "cores": [
+        "Branco",
+        "Preto"
+      ],
+      "material": "mesh",
+      "genero": "unissex",
+      "tipo": "calcado"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Andre Luiz",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Amortecimento excelente para correr na orla.",
+        "data": "2026-08-16"
+      },
+      {
+        "cliente": "Carolina Brito",
+        "cidade": "Goiania",
+        "nota": 5,
+        "comentario": "Leve e confortavel.",
+        "data": "2026-09-07"
+      },
+      {
+        "cliente": "Ricardo Neves",
+        "cidade": "Brasilia",
+        "nota": 4,
+        "comentario": "Forma um pouco pequena.",
+        "data": "2026-09-30"
+      },
+      {
+        "cliente": "Elaine Rocha",
+        "cidade": "Porto Nacional",
+        "nota": 5,
+        "comentario": "Ja corri 200 km com ele.",
+        "data": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-006",
+    "nome": "Camisa Social Slim Branca",
+    "descricao": "Camisa Social Slim Branca da marca Aramis, feito em algodão egípcio. Tamanhos disponíveis: 1, 2, 3, 4. Cores: Branco. Modelo masculino.",
+    "categoria": "roupa",
+    "marca": "Aramis",
+    "preco": 259.0,
+    "estoque": 50,
+    "emEstoque": true,
+    "tags": [
+      "social",
+      "trabalho"
+    ],
+    "notaMedia": 4,
+    "totalAvaliacoes": 1,
+    "vendas": 118,
+    "criadoEm": "2026-04-18",
+    "atributos": {
+      "tamanhos": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "cores": [
+        "Branco"
+      ],
+      "material": "algodão egípcio",
+      "genero": "masculino",
+      "manga": "longa"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Leandro Siqueira",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Nao precisa passar muito.",
+        "data": "2026-07-11"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-007",
+    "nome": "Legging Fitness Cintura Alta",
+    "descricao": "Legging Fitness Cintura Alta da marca Live!, feito em poliamida e elastano. Tamanhos disponíveis: P, M, G. Cores: Preto, Vinho, Verde Militar. Modelo feminino.",
+    "categoria": "roupa",
+    "marca": "Live!",
+    "preco": 189.9,
+    "estoque": 90,
+    "emEstoque": true,
+    "tags": [
+      "esportivo",
+      "academia"
+    ],
+    "notaMedia": 3.33,
+    "totalAvaliacoes": 3,
+    "vendas": 173,
+    "criadoEm": "2026-04-19",
+    "atributos": {
+      "tamanhos": [
+        "P",
+        "M",
+        "G"
+      ],
+      "cores": [
+        "Preto",
+        "Vinho",
+        "Verde Militar"
+      ],
+      "material": "poliamida e elastano",
+      "genero": "feminino"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Natalia Barbosa",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Nao fica transparente no agachamento.",
+        "data": "2026-08-25"
+      },
+      {
+        "cliente": "Simone Farias",
+        "cidade": "Araguaina",
+        "nota": 4,
+        "comentario": "Veste bem.",
+        "data": "2026-09-18"
+      },
+      {
+        "cliente": "Kelly Andrade",
+        "cidade": "Gurupi",
+        "nota": 1,
+        "comentario": "Costura abriu na primeira semana.",
+        "data": "2026-10-02"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-008",
+    "nome": "Jaqueta Corta-Vento Impermeável",
+    "descricao": "Jaqueta Corta-Vento Impermeável da marca The North Face, feito em nylon. Tamanhos disponíveis: P, M, G, GG. Cores: Azul Marinho, Vermelho. Modelo unissex.",
+    "categoria": "roupa",
+    "marca": "The North Face",
+    "preco": 699.0,
+    "estoque": 18,
+    "emEstoque": true,
+    "tags": [
+      "inverno",
+      "trilha"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 1,
+    "vendas": 85,
+    "criadoEm": "2026-04-20",
+    "atributos": {
+      "tamanhos": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "cores": [
+        "Azul Marinho",
+        "Vermelho"
+      ],
+      "material": "nylon",
+      "genero": "unissex",
+      "impermeavel": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Mauricio Pires",
+        "cidade": "Florianopolis",
+        "nota": 5,
+        "comentario": "Segurou chuva forte na trilha.",
+        "data": "2026-06-28"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-009",
+    "nome": "Bermuda Sarja Bege",
+    "descricao": "Bermuda Sarja Bege da marca Reserva, feito em sarja de algodão. Tamanhos disponíveis: 38, 40, 42, 44. Cores: Bege, Caqui. Modelo masculino.",
+    "categoria": "roupa",
+    "marca": "Reserva",
+    "preco": 219.0,
+    "estoque": 55,
+    "emEstoque": true,
+    "tags": [
+      "verao",
+      "casual"
+    ],
+    "notaMedia": 3.5,
+    "totalAvaliacoes": 2,
+    "vendas": 204,
+    "criadoEm": "2026-04-21",
+    "atributos": {
+      "tamanhos": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "cores": [
+        "Bege",
+        "Caqui"
+      ],
+      "material": "sarja de algodão",
+      "genero": "masculino"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Igor Batista",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Boa para o calor de Palmas.",
+        "data": "2026-09-11"
+      },
+      {
+        "cliente": "Danilo Ramos",
+        "cidade": "Goiania",
+        "nota": 3,
+        "comentario": "Tecido fino.",
+        "data": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-010",
+    "nome": "Blusa de Tricô Gola Alta",
+    "descricao": "Blusa de Tricô Gola Alta da marca Renner, feito em acrílico. Tamanhos disponíveis: P, M, G. Cores: Off White, Caramelo. Modelo feminino.",
+    "categoria": "roupa",
+    "marca": "Renner",
+    "preco": 129.9,
+    "estoque": 0,
+    "emEstoque": false,
+    "tags": [
+      "inverno"
+    ],
+    "notaMedia": 0,
+    "totalAvaliacoes": 0,
+    "vendas": 12,
+    "criadoEm": "2026-04-22",
+    "atributos": {
+      "tamanhos": [
+        "P",
+        "M",
+        "G"
+      ],
+      "cores": [
+        "Off White",
+        "Caramelo"
+      ],
+      "material": "acrílico",
+      "genero": "feminino"
+    },
+    "avaliacoes": []
+  },
+  {
+    "sku": "ROU-011",
+    "nome": "Boné Aba Curva",
+    "descricao": "Boné Aba Curva da marca New Era, feito em poliéster. Tamanhos disponíveis: Unico. Cores: Preto, Branco. Modelo unissex.",
+    "categoria": "roupa",
+    "marca": "New Era",
+    "preco": 199.9,
+    "estoque": 40,
+    "emEstoque": true,
+    "tags": [
+      "acessorio",
+      "casual"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 1,
+    "vendas": 152,
+    "criadoEm": "2026-04-23",
+    "atributos": {
+      "tamanhos": [
+        "Unico"
+      ],
+      "cores": [
+        "Preto",
+        "Branco"
+      ],
+      "material": "poliéster",
+      "genero": "unissex",
+      "ajustavel": true,
+      "tipo": "acessorio"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Caio Medeiros",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Original, veio com etiqueta.",
+        "data": "2026-08-07"
+      }
+    ]
+  },
+  {
+    "sku": "ROU-012",
+    "nome": "Pijama Infantil Dinossauro",
+    "descricao": "Pijama Infantil Dinossauro da marca Malwee, feito em algodão. Tamanhos disponíveis: 2, 4, 6, 8, 10. Cores: Verde. Modelo infantil.",
+    "categoria": "roupa",
+    "marca": "Malwee",
+    "preco": 89.9,
+    "estoque": 65,
+    "emEstoque": true,
+    "tags": [
+      "infantil",
+      "dormir"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 2,
+    "vendas": 158,
+    "criadoEm": "2026-04-24",
+    "atributos": {
+      "tamanhos": [
+        "2",
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "cores": [
+        "Verde"
+      ],
+      "material": "algodão",
+      "genero": "infantil",
+      "brilhaNoEscuro": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Roberta Sales",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Meu filho nao quer tirar.",
+        "data": "2026-09-24"
+      },
+      {
+        "cliente": "Cristiane Lopes",
+        "cidade": "Brasilia",
+        "nota": 5,
+        "comentario": "Brilha mesmo no escuro!",
+        "data": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-001",
+    "nome": "Dom Casmurro",
+    "descricao": "Livro de Machado de Assis, publicado pela editora Penguin-Companhia em 1899, com 256 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Penguin-Companhia",
+    "preco": 34.9,
+    "estoque": 120,
+    "emEstoque": true,
+    "tags": [
+      "classico",
+      "literatura brasileira"
+    ],
+    "notaMedia": 4.5,
+    "totalAvaliacoes": 2,
+    "vendas": 168,
+    "criadoEm": "2026-04-25",
+    "atributos": {
+      "autor": "Machado de Assis",
+      "isbn": "9788582850350",
+      "paginas": 256,
+      "editora": "Penguin-Companhia",
+      "idioma": "português",
+      "anoPublicacao": 1899,
+      "formato": "brochura"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Helena Prado",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Capitu traiu ou nao? Leitura obrigatoria.",
+        "data": "2026-05-14"
+      },
+      {
+        "cliente": "Samuel Costa",
+        "cidade": "Araguaina",
+        "nota": 4,
+        "comentario": "Edicao com otimas notas.",
+        "data": "2026-06-02"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-002",
+    "nome": "Grande Sertão: Veredas",
+    "descricao": "Livro de João Guimarães Rosa, publicado pela editora Companhia das Letras em 1956, com 560 páginas. Edição em português, formato capa dura.",
+    "categoria": "livro",
+    "marca": "Companhia das Letras",
+    "preco": 89.9,
+    "estoque": 40,
+    "emEstoque": true,
+    "tags": [
+      "classico",
+      "literatura brasileira"
+    ],
+    "notaMedia": 4,
+    "totalAvaliacoes": 2,
+    "vendas": 174,
+    "criadoEm": "2026-04-26",
+    "atributos": {
+      "autor": "João Guimarães Rosa",
+      "isbn": "9788535932348",
+      "paginas": 560,
+      "editora": "Companhia das Letras",
+      "idioma": "português",
+      "anoPublicacao": 1956,
+      "formato": "capa dura"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Otavio Ramos",
+        "cidade": "Belo Horizonte",
+        "nota": 5,
+        "comentario": "Obra-prima.",
+        "data": "2026-07-03"
+      },
+      {
+        "cliente": "Juliana Vaz",
+        "cidade": "Palmas",
+        "nota": 3,
+        "comentario": "Linguagem dificil no comeco.",
+        "data": "2026-08-21"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-003",
+    "nome": "Banco de Dados NoSQL: Uma Introdução",
+    "descricao": "Livro de Pramod J. Sadalage e Martin Fowler, publicado pela editora Novatec em 2013, com 220 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Novatec",
+    "preco": 79.0,
+    "estoque": 25,
+    "emEstoque": true,
+    "tags": [
+      "tecnico",
+      "computacao",
+      "banco de dados"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 220,
+    "criadoEm": "2026-04-27",
+    "atributos": {
+      "autor": "Pramod J. Sadalage e Martin Fowler",
+      "isbn": "9788575223383",
+      "paginas": 220,
+      "editora": "Novatec",
+      "idioma": "português",
+      "anoPublicacao": 2013,
+      "formato": "brochura",
+      "tituloOriginal": "NoSQL Distilled"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Leonardo Bezerra",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Explica muito bem os tipos de NoSQL.",
+        "data": "2026-10-20"
+      },
+      {
+        "cliente": "Gabriel Anjo",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Ajudou muito na aula 10.",
+        "data": "2026-10-21"
+      },
+      {
+        "cliente": "Artur Sousa",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Curto e direto.",
+        "data": "2026-10-22"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-004",
+    "nome": "Código Limpo",
+    "descricao": "Livro de Robert C. Martin, publicado pela editora Alta Books em 2009, com 425 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Alta Books",
+    "preco": 99.9,
+    "estoque": 33,
+    "emEstoque": true,
+    "tags": [
+      "tecnico",
+      "computacao",
+      "programacao"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 163,
+    "criadoEm": "2026-04-28",
+    "atributos": {
+      "autor": "Robert C. Martin",
+      "isbn": "9788576082675",
+      "paginas": 425,
+      "editora": "Alta Books",
+      "idioma": "português",
+      "anoPublicacao": 2009,
+      "formato": "brochura"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Pedro Henrique",
+        "cidade": "Brasilia",
+        "nota": 5,
+        "comentario": "Todo dev deveria ler.",
+        "data": "2026-06-18"
+      },
+      {
+        "cliente": "Mateus Silva",
+        "cidade": "Palmas",
+        "nota": 4,
+        "comentario": "Alguns exemplos datados, mas vale.",
+        "data": "2026-07-30"
+      },
+      {
+        "cliente": "Yasmin Cruz",
+        "cidade": "Goiania",
+        "nota": 5,
+        "comentario": "Mudou meu jeito de programar.",
+        "data": "2026-08-28"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-005",
+    "nome": "Sapiens: Uma Breve História da Humanidade",
+    "descricao": "Livro de Yuval Noah Harari, publicado pela editora Companhia das Letras em 2011, com 472 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Companhia das Letras",
+    "preco": 69.9,
+    "estoque": 75,
+    "emEstoque": true,
+    "tags": [
+      "nao-ficcao",
+      "historia"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 179,
+    "criadoEm": "2026-04-29",
+    "atributos": {
+      "autor": "Yuval Noah Harari",
+      "isbn": "9788535933925",
+      "paginas": 472,
+      "editora": "Companhia das Letras",
+      "idioma": "português",
+      "anoPublicacao": 2011,
+      "formato": "brochura"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Claudio Reis",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Leitura fascinante.",
+        "data": "2026-05-08"
+      },
+      {
+        "cliente": "Monica Duarte",
+        "cidade": "Sao Paulo",
+        "nota": 4,
+        "comentario": "Algumas partes repetitivas.",
+        "data": "2026-06-11"
+      },
+      {
+        "cliente": "Fabiana Rocha",
+        "cidade": "Gurupi",
+        "nota": 5,
+        "comentario": "Recomendo demais.",
+        "data": "2026-07-22"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-006",
+    "nome": "O Pequeno Príncipe",
+    "descricao": "Livro de Antoine de Saint-Exupéry, publicado pela editora Agir em 1943, com 96 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Agir",
+    "preco": 29.9,
+    "estoque": 150,
+    "emEstoque": true,
+    "tags": [
+      "infantil",
+      "classico"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 1,
+    "vendas": 121,
+    "criadoEm": "2026-04-30",
+    "atributos": {
+      "autor": "Antoine de Saint-Exupéry",
+      "isbn": "9788522008731",
+      "paginas": 96,
+      "editora": "Agir",
+      "idioma": "português",
+      "anoPublicacao": 1943,
+      "formato": "brochura",
+      "ilustrado": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Lara Gomes",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Li com minha filha.",
+        "data": "2026-09-06"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-007",
+    "nome": "1984",
+    "descricao": "Livro de George Orwell, publicado pela editora Companhia das Letras em 1949, com 416 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Companhia das Letras",
+    "preco": 44.9,
+    "estoque": 90,
+    "emEstoque": true,
+    "tags": [
+      "classico",
+      "distopia",
+      "ficcao"
+    ],
+    "notaMedia": 4,
+    "totalAvaliacoes": 3,
+    "vendas": 184,
+    "criadoEm": "2026-05-01",
+    "atributos": {
+      "autor": "George Orwell",
+      "isbn": "9788535914849",
+      "paginas": 416,
+      "editora": "Companhia das Letras",
+      "idioma": "português",
+      "anoPublicacao": 1949,
+      "formato": "brochura"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Rogerio Alves",
+        "cidade": "Araguaina",
+        "nota": 5,
+        "comentario": "Assustadoramente atual.",
+        "data": "2026-06-25"
+      },
+      {
+        "cliente": "Debora Lima",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Nao consegui parar de ler.",
+        "data": "2026-08-04"
+      },
+      {
+        "cliente": "Gilberto Nunes",
+        "cidade": "Brasilia",
+        "nota": 2,
+        "comentario": "Final muito pesado para mim.",
+        "data": "2026-09-13"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-008",
+    "nome": "Torto Arado",
+    "descricao": "Livro de Itamar Vieira Junior, publicado pela editora Todavia em 2019, com 264 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Todavia",
+    "preco": 59.9,
+    "estoque": 60,
+    "emEstoque": true,
+    "tags": [
+      "literatura brasileira",
+      "premiado",
+      "ficcao"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 2,
+    "vendas": 140,
+    "criadoEm": "2026-05-02",
+    "atributos": {
+      "autor": "Itamar Vieira Junior",
+      "isbn": "9786580309313",
+      "paginas": 264,
+      "editora": "Todavia",
+      "idioma": "português",
+      "anoPublicacao": 2019,
+      "formato": "brochura",
+      "premios": [
+        "Jabuti 2020",
+        "Oceanos 2020"
+      ]
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Marta Silveira",
+        "cidade": "Salvador",
+        "nota": 5,
+        "comentario": "Livro necessario.",
+        "data": "2026-07-16"
+      },
+      {
+        "cliente": "Joana Freire",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Personagens marcantes.",
+        "data": "2026-08-27"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-009",
+    "nome": "Entendendo Algoritmos",
+    "descricao": "Livro de Aditya Y. Bhargava, publicado pela editora Novatec em 2017, com 264 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Novatec",
+    "preco": 74.9,
+    "estoque": 28,
+    "emEstoque": true,
+    "tags": [
+      "tecnico",
+      "computacao",
+      "algoritmos"
+    ],
+    "notaMedia": 4.5,
+    "totalAvaliacoes": 2,
+    "vendas": 94,
+    "criadoEm": "2026-05-03",
+    "atributos": {
+      "autor": "Aditya Y. Bhargava",
+      "isbn": "9788575225639",
+      "paginas": 264,
+      "editora": "Novatec",
+      "idioma": "português",
+      "anoPublicacao": 2017,
+      "formato": "brochura",
+      "ilustrado": true
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Vitor Hugo",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Os desenhos ajudam muito.",
+        "data": "2026-09-19"
+      },
+      {
+        "cliente": "Rebeca Antunes",
+        "cidade": "Goiania",
+        "nota": 4,
+        "comentario": "Otimo para iniciantes.",
+        "data": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-010",
+    "nome": "The Pragmatic Programmer (Ebook)",
+    "descricao": "Livro de David Thomas e Andrew Hunt, publicado pela editora Addison-Wesley em 2019, com 352 páginas. Edição em inglês, formato ebook.",
+    "categoria": "livro",
+    "marca": "Addison-Wesley",
+    "preco": 159.0,
+    "estoque": 999,
+    "emEstoque": true,
+    "tags": [
+      "tecnico",
+      "computacao",
+      "ingles",
+      "digital"
+    ],
+    "notaMedia": 0,
+    "totalAvaliacoes": 0,
+    "vendas": 32,
+    "criadoEm": "2026-05-04",
+    "atributos": {
+      "autor": "David Thomas e Andrew Hunt",
+      "isbn": "9780135957059",
+      "paginas": 352,
+      "editora": "Addison-Wesley",
+      "idioma": "inglês",
+      "anoPublicacao": 2019,
+      "formato": "ebook",
+      "tamanhoArquivoMB": 12
+    },
+    "avaliacoes": []
+  },
+  {
+    "sku": "LIV-011",
+    "nome": "Harry Potter e a Pedra Filosofal",
+    "descricao": "Livro de J.K. Rowling, publicado pela editora Rocco em 1997, com 208 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Rocco",
+    "preco": 49.9,
+    "estoque": 110,
+    "emEstoque": true,
+    "tags": [
+      "fantasia",
+      "infantojuvenil",
+      "ficcao"
+    ],
+    "notaMedia": 4.67,
+    "totalAvaliacoes": 3,
+    "vendas": 221,
+    "criadoEm": "2026-05-05",
+    "atributos": {
+      "autor": "J.K. Rowling",
+      "isbn": "9788532530783",
+      "paginas": 208,
+      "editora": "Rocco",
+      "idioma": "português",
+      "anoPublicacao": 1997,
+      "formato": "brochura",
+      "serie": {
+        "nome": "Harry Potter",
+        "volume": 1
+      }
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Sofia Martins",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Reli pela quinta vez.",
+        "data": "2026-06-09"
+      },
+      {
+        "cliente": "Enzo Ribeiro",
+        "cidade": "Porto Nacional",
+        "nota": 5,
+        "comentario": "Comecei a serie agora!",
+        "data": "2026-08-15"
+      },
+      {
+        "cliente": "Alice Carvalho",
+        "cidade": "Brasilia",
+        "nota": 4,
+        "comentario": "Classico da infancia.",
+        "data": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "sku": "LIV-012",
+    "nome": "Quarto de Despejo",
+    "descricao": "Livro de Carolina Maria de Jesus, publicado pela editora Atica em 1960, com 200 páginas. Edição em português, formato brochura.",
+    "categoria": "livro",
+    "marca": "Atica",
+    "preco": 39.9,
+    "estoque": 45,
+    "emEstoque": true,
+    "tags": [
+      "literatura brasileira",
+      "nao-ficcao",
+      "classico"
+    ],
+    "notaMedia": 5,
+    "totalAvaliacoes": 1,
+    "vendas": 85,
+    "criadoEm": "2026-05-06",
+    "atributos": {
+      "autor": "Carolina Maria de Jesus",
+      "isbn": "9788508171275",
+      "paginas": 200,
+      "editora": "Atica",
+      "idioma": "português",
+      "anoPublicacao": 1960,
+      "formato": "brochura"
+    },
+    "avaliacoes": [
+      {
+        "cliente": "Luana Teixeira",
+        "cidade": "Palmas",
+        "nota": 5,
+        "comentario": "Forte e emocionante.",
+        "data": "2026-09-29"
+      }
+    ]
+  }
+]
