@@ -4,6 +4,9 @@ Trabalho prático de **Bancos de Dados NoSQL** — tipo **Pesquisa (search engin
 
 **Integrantes:** Leonardo Bezerra · Gabriel Anjo · Artur Sousa
 
+**Como o trabalho foi feito:** o grupo desenvolveu o projeto em conjunto, no computador do Leonardo. Por isso, os commits
+saem pela conta dele, com os demais integrantes indicados como coautores (`Co-authored-by`).
+
 **Estudo de caso:** busca de produtos de um e-commerce (celulares, roupas e livros) com **relevância, filtros,
 autocompletar e tolerância a erro de digitação**.
 
