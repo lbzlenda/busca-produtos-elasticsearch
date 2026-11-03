@@ -1,0 +1,86 @@
+### CRUD 1 - INSERIR um produto (o id do documento e o proprio SKU)
+# PUT com id definido. ?refresh=true deixa o documento visivel na busca na hora.
+PUT /produtos/_doc/LIV-013?refresh=true
+{
+  "sku": "LIV-013",
+  "nome": "Memórias Póstumas de Brás Cubas",
+  "descricao": "Livro de Machado de Assis, publicado pela editora Penguin-Companhia em 1881, com 368 páginas. Narrado por um defunto autor.",
+  "categoria": "livro",
+  "marca": "Penguin-Companhia",
+  "preco": 39.90,
+  "estoque": 50,
+  "emEstoque": true,
+  "tags": ["classico", "literatura brasileira"],
+  "notaMedia": 0,
+  "totalAvaliacoes": 0,
+  "vendas": 0,
+  "criadoEm": "2026-11-02",
+  "atributos": { "autor": "Machado de Assis", "isbn": "9788582850404", "paginas": 368, "editora": "Penguin-Companhia", "idioma": "português", "anoPublicacao": 1881, "formato": "brochura" },
+  "avaliacoes": []
+}
+
+### CRUD 2 - INSERIR com id gerado pelo Elasticsearch (POST, sem id na URL)
+# Um produto de roupa, com atributos diferentes (protecaoUV) - o indice aceita sem alterar nada.
+POST /produtos/_doc?refresh=true
+{
+  "sku": "ROU-013",
+  "nome": "Camiseta Dry Fit Corrida",
+  "descricao": "Camiseta esportiva da Adidas em poliéster reciclado, com proteção UV. Ideal para corrida.",
+  "categoria": "roupa",
+  "marca": "Adidas",
+  "preco": 129.90,
+  "estoque": 80,
+  "emEstoque": true,
+  "tags": ["esportivo", "corrida"],
+  "notaMedia": 0, "totalAvaliacoes": 0, "vendas": 0, "criadoEm": "2026-11-02",
+  "atributos": { "tamanhos": ["P", "M", "G"], "cores": ["Laranja", "Preto"], "material": "poliéster reciclado", "genero": "unissex", "protecaoUV": "FPU 50" },
+  "avaliacoes": []
+}
+
+### CRUD 3 - CONSULTAR um documento pelo id
+GET /produtos/_doc/LIV-013
+
+### CRUD 4 - CONSULTAR por campo (busca o produto que acabou de ganhar id automatico)
+GET /produtos/_search
+{
+  "query": { "term": { "sku": "ROU-013" } },
+  "_source": ["sku", "nome", "preco", "atributos.protecaoUV"]
+}
+
+### CRUD 5 - ATUALIZAR campos (update parcial: so manda o que mudou)
+POST /produtos/_update/LIV-013?refresh=true
+{
+  "doc": { "preco": 34.90, "tags": ["classico", "literatura brasileira", "promocao"] }
+}
+
+### CRUD 6 - ATUALIZAR com script (registrar uma venda de 2 unidades)
+# O script roda dentro do Elasticsearch: baixa o estoque e soma nas vendas.
+POST /produtos/_update/LIV-013?refresh=true
+{
+  "script": {
+    "source": "ctx._source.estoque -= params.qtd; ctx._source.vendas += params.qtd; ctx._source.emEstoque = ctx._source.estoque > 0",
+    "params": { "qtd": 2 }
+  }
+}
+
+### CRUD 7 - CONFERIR a atualizacao
+GET /produtos/_doc/LIV-013?_source=nome,preco,estoque,vendas,tags
+
+### CRUD 8 - ATUALIZAR VARIOS (update_by_query): todo produto com estoque 0 fica marcado como indisponivel
+POST /produtos/_update_by_query?refresh=true
+{
+  "query": { "term": { "estoque": 0 } },
+  "script": { "source": "ctx._source.emEstoque = false" }
+}
+
+### CRUD 9 - EXCLUIR pelo id
+DELETE /produtos/_doc/LIV-013?refresh=true
+
+### CRUD 10 - EXCLUIR por consulta (delete_by_query): remove o produto cujo id foi gerado automaticamente
+POST /produtos/_delete_by_query?refresh=true
+{
+  "query": { "term": { "sku": "ROU-013" } }
+}
+
+### CRUD 11 - CONFERIR que voltou para 36 produtos
+GET /produtos/_count
